@@ -1,0 +1,2 @@
+GET        /lines             @de.mobimeo.controllers.AppController.lines(timestamp: String, x: Int, y: Int)
+GET        /lines/:name       @de.mobimeo.controllers.AppController.lineDelays(name)
